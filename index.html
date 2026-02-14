@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aura Estética - Tratamientos faciales y corporales de vanguardia. Medicina estética consciente en Buenos Aires.">
+    <title>Aura Estética | Tu belleza en su estado más puro</title>
+    
+    <!-- Fuentes Google -->
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- ============================================
+         BOTÓN WHATSAPP FLOTANTE
+         Editá el número acá: 5491112345678
+         ============================================ -->
+    <a href="https://wa.me/5491112345678?text=Hola%20Aura%20Est%C3%A9tica,%20quiero%20consultar%20por%20un%20tratamiento" 
+       class="whatsapp-float" 
+       target="_blank"
+       rel="noopener"
+       aria-label="Contactar por WhatsApp">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+            <path d="M16 0C7.164 0 0 7.164 0 16c0 2.828.74 5.482 2.032 7.776L0 32l8.448-2.016A15.923 15.923 0 0016 32c8.836 0 16-7.164 16-16S24.836 0 16 0zm0 29.333c-2.548 0-4.96-.708-7.024-1.94l-.504-.296-5.22 1.248 1.264-5.06-.332-.528A13.253 13.253 0 012.667 16c0-7.364 5.969-13.333 13.333-13.333S29.333 8.636 29.333 16 23.364 29.333 16 29.333z" fill="white"/>
+            <path d="M23.573 19.688c-.396-.2-2.348-1.16-2.712-1.292-.364-.132-.628-.2-.892.2-.264.396-1.024 1.292-1.256 1.556-.232.264-.464.296-.86.096-.396-.2-1.672-.616-3.184-1.964-1.176-1.048-1.972-2.344-2.204-2.74-.232-.396-.024-.612.172-.808.176-.176.396-.464.596-.696.2-.232.264-.396.396-.66.132-.264.068-.496-.032-.696-.1-.2-.892-2.148-1.224-2.94-.324-.772-.652-.668-.892-.68-.232-.012-.496-.016-.76-.016-.264 0-.692.1-1.056.496-.364.396-1.392 1.36-1.392 3.316 0 1.956 1.424 3.848 1.624 4.112.2.264 2.812 4.292 6.812 6.02.952.412 1.696.656 2.276.84.956.304 1.824.26 2.512.156.764-.116 2.348-.96 2.68-1.888.332-.928.332-1.724.232-1.888-.1-.164-.364-.264-.76-.464z" fill="white"/>
+        </svg>
+    </a>
+
+    <!-- ============================================
+         NAVEGACIÓN CON EFECTO GLASS
+         ============================================ -->
+    <nav class="glass-nav">
+        <div class="container nav-container">
+            <div class="nav-logo">
+                <span class="material-symbols-outlined">flare</span>
+                <span class="logo-text">Aura</span>
+            </div>
+            
+            <div class="nav-links">
+                <a href="#servicios">Servicios</a>
+                <a href="#nosotros">Filosofía</a>
+                <a href="#contacto">Contacto</a>
+            </div>
+            
+            <!-- Botón reservar en nav -->
+            <a href="https://wa.me/5491112345678?text=Hola,%20quiero%20reservar%20una%20cita%20en%20Aura%20Est%C3%A9tica" 
+               class="btn-nav" 
+               target="_blank"
+               rel="noopener">
+                Reservar Cita
+            </a>
+            
+            <!-- Menú hamburguesa mobile -->
+            <button class="menu-toggle" aria-label="Abrir menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ============================================
+         HERO SECTION
+         ============================================ -->
+    <section class="hero">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Tu belleza, en su <span class="italic">estado puro.</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Tratamientos estéticos avanzados con un enfoque consciente. 
+                    Estética contemporánea inspirada en la pureza y el bienestar.
+                </p>
+                <div class="hero-buttons">
+                    <a href="https://wa.me/5491112345678?text=Hola,%20quiero%20conocer%20los%20tratamientos%20disponibles" 
+                       class="btn btn-primary" 
+                       target="_blank"
+                       rel="noopener">
+                        Explorar Tratamientos
+                    </a>
+                    <a href="#servicios" class="btn btn-secondary">
+                        Ver Resultados
+                    </a>
+                </div>
+            </div>
+            
+            <div class="hero-image-wrapper">
+                <div class="hero-image">
+                    <!-- Imagen de mujer con piel radiante - Reemplazá con tu foto real -->
+                    <img src="images/hero-principal.png" alt="Mujer con piel radiante y saludable" 
+                         loading="eager">
+                </div>
+                <div class="floating-blob"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         SERVICIOS GRID
+         ============================================ -->
+    <section class="services" id="servicios">
+        <div class="container">
+            <div class="section-header"> 
+                <div class="section-header-content">
+                    <h2 class="section-title">Experiencias Aura</h2>
+                    <p class="section-subtitle">
+                        Protocolos diseñados para realzar tu esencia natural a través de la ciencia y el minimalismo.
+                    </p>
+                </div>
+                <div class="scroll-indicator">
+                    <span>Scroll to explore</span>
+                </div>
+            </div>
+
+            <div class="services-grid">
+                
+                <!-- Servicio 1 -->
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="images/exp1.png" 
+                             alt="Tratamiento facial profesional" 
+                             loading="lazy">
+                        <div class="service-overlay"></div>
+                    </div>
+                    <div class="service-info">
+                        <h3 class="service-name">Facial Glow</h3>
+                        <p class="service-description">
+                            Iluminación y vitalidad profunda para pieles que buscan resplandecer.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Servicio 2 -->
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="images/exp2.png" 
+                             alt="Tratamiento corporal de modelado" 
+                             loading="lazy">
+                        <div class="service-overlay"></div>
+                    </div>
+                    <div class="service-info">
+                        <h3 class="service-name">Corporal Sculpt</h3>
+                        <p class="service-description">
+                            Remodelación avanzada con tecnología no invasiva de última generación.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Servicio 3 -->
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="images/exp3.png" 
+                             alt="Medicina estética profesional" 
+                             loading="lazy">
+                        <div class="service-overlay"></div>
+                    </div>
+                    <div class="service-info">
+                        <h3 class="service-name">Medicina Estética</h3>
+                        <p class="service-description">
+                            La precisión de la ciencia aplicada a la armonización facial y bienestar.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Servicio 4 -->
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="images/exp4.png" 
+                             alt="Spa y tratamientos de bienestar" 
+                             loading="lazy">
+                        <div class="service-overlay"></div>
+                    </div>
+                    <div class="service-info">
+                        <h3 class="service-name">Bienestar Aura</h3>
+                        <p class="service-description">
+                            Un equilibrio holístico que reconecta tu paz interior con tu reflejo exterior.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         BENEFICIOS / POR QUÉ ELEGIRNOS
+         ============================================ -->
+    <section class="benefits">
+        <div class="container">
+            <div class="benefits-grid">
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <span class="material-symbols-outlined">biotech</span>
+                    </div>
+                    <h3 class="benefit-title">Vanguardia Tecnológica</h3>
+                    <p class="benefit-description">
+                        Equipamiento láser y radiofrecuencia de última generación para precisión absoluta en cada sesión.
+                    </p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon mauve">
+                        <span class="material-symbols-outlined">spa</span>
+                    </div>
+                    <h3 class="benefit-title">Resultados Orgánicos</h3>
+                    <p class="benefit-description">
+                        Creemos en la elegancia de lo natural. Realzamos tu belleza sin perder la autenticidad de tus rasgos.
+                    </p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <span class="material-symbols-outlined">psychology_alt</span>
+                    </div>
+                    <h3 class="benefit-title">Experiencia Única</h3>
+                    <p class="benefit-description">
+                        Cada piel es una historia. Diseñamos planes personalizados que evolucionan contigo y tus necesidades.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         SOBRE NOSOTROS - LAYOUT ASIMÉTRICO
+         ============================================ -->
+    <section class="about" id="nosotros">
+        <div class="container">
+            <div class="about-grid">
+                
+                <div class="about-images">
+                    <div class="about-shape"></div>
+                    <div class="about-image-main">
+                        <img src="images/unnamed1.png" 
+                             alt="Profesional de estética en consultorio moderno" 
+                             loading="lazy">
+                    </div>
+                    <div class="about-image-small">
+                        <img src="images/unnamed3.png" 
+                             alt="Productos de cuidado de piel premium" 
+                             loading="lazy">
+                    </div>
+                </div>
+
+                <div class="about-content">
+                    <span class="about-label">Nuestra Esencia</span>
+                    <h2 class="about-title">
+                        La calma es el nuevo <span class="italic">lujo.</span>
+                    </h2>
+                    <p class="about-text">
+                        En Aura Estética, nos alejamos del ruido de la industria convencional. 
+                        Nacimos para ofrecer un refugio de sofisticación donde la ciencia y el bienestar se encuentran.
+                    </p>
+                    <p class="about-text">
+                        Inspirados en la pureza de marcas como Glossier y la eficacia de la medicina contemporánea, 
+                        creamos un espacio donde cada tratamiento es un ritual de cuidado personal.
+                    </p>
+                    <a href="#contacto" class="about-link">
+                        <span>Conoce al equipo</span>
+                        <span class="material-symbols-outlined">east</span>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         LLAMADO A LA ACCIÓN FINAL
+         ============================================ -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-box">
+                <div class="cta-gradient"></div>
+                <h2 class="cta-title">
+                    Comienza tu <br class="desktop-break">transformación hoy.
+                </h2>
+                <a href="https://wa.me/5491112345678?text=Hola,%20quiero%20agendar%20mi%20consulta%20gratuita%20en%20Aura%20Est%C3%A9tica" 
+                   class="btn btn-cta" 
+                   target="_blank"
+                   rel="noopener">
+                    Reservar Mi Consulta Gratuita
+                </a>
+                <p class="cta-note">Plazas limitadas para el mes de Octubre</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         FOOTER
+         EDITÁ DATOS DE CONTACTO ACÁ
+         ============================================ -->
+    <footer class="footer" id="contacto">
+        <div class="container">
+            <div class="footer-grid">
+                
+                <!-- Columna 1: Marca -->
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <span class="material-symbols-outlined">flare</span>
+                        <span class="logo-text">Aura</span>
+                    </div>
+                    <p class="footer-tagline">
+                        Estética contemporánea consciente. Redefiniendo los estándares de belleza 
+                        a través del minimalismo y la ciencia.
+                    </p>
+                </div>
+
+                <!-- Columna 2: Servicios -->
+                <div class="footer-col">
+                    <h4 class="footer-heading">Servicios</h4>
+                    <ul class="footer-links">
+                        <li><a href="#servicios">Cuidado Facial</a></li>
+                        <li><a href="#servicios">Remodelación Corporal</a></li>
+                        <li><a href="#servicios">Inyectables</a></li>
+                        <li><a href="#servicios">Rituales SPA</a></li>
+                    </ul>
+                </div>
+
+                <!-- Columna 3: Compañía -->
+                <div class="footer-col">
+                    <h4 class="footer-heading">Compañía</h4>
+                    <ul class="footer-links">
+                        <li><a href="#nosotros">Nuestra Filosofía</a></li>
+                        <li><a href="#servicios">Historias de Éxito</a></li>
+                        <li><a href="#contacto">FAQ</a></li>
+                        <li><a href="#contacto">Journal</a></li>
+                    </ul>
+                </div>
+
+                <!-- Columna 4: Contacto -->
+                <div class="footer-col">
+                    <h4 class="footer-heading">Contacto</h4>
+                    <ul class="footer-contact">
+                        <li>
+                            <span class="material-symbols-outlined">location_on</span>
+                            Av. Santa Fe 1234, Palermo, CABA
+                        </li>
+                        <li>
+                            <span class="material-symbols-outlined">call</span>
+                            +54 9 11 1234-5678
+                        </li>
+                        <li>
+                            <span class="material-symbols-outlined">mail</span>
+                            hola@auraestetica.com
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <p class="footer-copyright">
+                    © 2024 Aura Estética. Todos los derechos reservados.
+                </p>
+                <div class="footer-social">
+                    <a href="https://instagram.com/auraestetica" target="_blank" rel="noopener" aria-label="Instagram">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                        </svg>
+                    </a>
+                    <a href="https://youtube.com/@auraestetica" target="_blank" rel="noopener" aria-label="YouTube">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
