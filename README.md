@@ -1,91 +1,65 @@
-# 🌟 Aura Estética — Landing Page
+# Aura Estética Landing
 
-Landing page moderna y minimalista desarrollada para un centro de estética facial y corporal, con enfoque en conversión y experiencia de usuario.
+Landing page moderna y minimalista para un centro de estética facial y corporal, desarrollada con foco en conversión, confianza visual y experiencia mobile-first.
 
----
-
-## 📌 Descripción
-
-Proyecto frontend diseñado para captar clientes a través de WhatsApp mediante una estructura clara, jerarquía visual estratégica y llamadas a la acción optimizadas.
-
-El objetivo principal fue construir una landing ligera, performante y escalable sin utilizar frameworks, priorizando rendimiento y control total del código.
+El proyecto prioriza un recorrido simple: entender la propuesta, explorar tratamientos y consultar por WhatsApp sin fricción.
 
 ---
 
-## ⚙️ Stack Tecnológico
+## Contexto
 
-* HTML5 semántico
-* CSS3 (Custom Properties, Grid, Flexbox)
-* JavaScript Vanilla (ES6+)
-* Intersection Observer API
-* Google Fonts (Manrope, Playfair Display)
-* Material Symbols (iconografía)
+Aura necesitaba una presencia digital que comunicara calma, cuidado y profesionalismo sin perder claridad comercial. La página combina estética editorial, copy orientado a beneficios y CTAs directos para captar consultas.
 
 ---
 
-## 🧩 Características Técnicas
+## Mi rol
 
-* Arquitectura simple y mantenible
-* Diseño mobile-first (100% responsive)
-* Integración directa con WhatsApp
-* Animaciones basadas en scroll con Intersection Observer
-* Lazy loading de imágenes
-* Uso de `cubic-bezier` personalizado para microinteracciones
-* Estructura optimizada para SEO (etiquetas semánticas y meta tags)
-* Carga rápida sin dependencias externas
+Diseño UI, desarrollo frontend, dirección visual, estructura responsive, copy de conversión, optimización SEO básica e integración directa con WhatsApp.
 
 ---
 
-## 🗂️ Estructura del Proyecto
+## Decisiones de UX
 
+- Hero con CTA visible en el primer viewport.
+- Jerarquía visual clara para diferenciar servicios, beneficios y filosofía de marca.
+- Integración directa con WhatsApp para consultas y reservas.
+- Animaciones con Intersection Observer para aportar dinamismo sin sacrificar rendimiento.
+- Imágenes con lazy loading y estructura semántica para mejorar carga y SEO.
+
+---
+
+## Stack
+
+- HTML5 semántico
+- CSS3 con Custom Properties
+- JavaScript vanilla
+- Intersection Observer API
+- Google Fonts
+- Material Symbols
+
+---
+
+## Estructura
+
+```text
+aura-estetica/
+├── index.html
+├── styles.css
+├── script.js
+├── images/
+└── README.md
 ```
-.
-├── index.html      # Estructura principal
-├── styles.css      # Estilos y sistema visual
-├── script.js       # Lógica y animaciones
-└── README.md       # Documentación
-```
 
 ---
 
-## 🖥️ Secciones Implementadas
+## Cómo ejecutarlo
 
-1. Hero con CTA principal above-the-fold
-2. Servicios destacados con efectos hover
-3. Sección de beneficios (propuesta de valor)
-4. Sobre nosotros con layout asimétrico
-5. CTA final orientado a conversión
-6. Footer con información de contacto y redes
+Clonar el repositorio y abrir `index.html` en el navegador. No requiere instalación de dependencias.
 
 ---
 
-## 🚀 Cómo ejecutar
+## Autoría
 
-1. Clonar el repositorio
-2. Abrir `index.html` en el navegador
+Desarrollado por **Nadia Escobar**.
 
-No requiere instalación de dependencias.
-
----
-
-## 📈 Enfoque en Conversión
-
-* CTA visible en el primer viewport
-* Jerarquía visual clara y contraste estratégico
-* Copy centrado en beneficios
-* Flujo directo a WhatsApp sin fricción
-
----
-
-## 📄 Licencia
-
-Este proyecto se distribuye bajo licencia MIT.
-
----
-
-## 👩‍💻 Autora
-
-Nadia Escobar
-Frontend Developer
-
----
+Frontend Developer enfocada en interfaces visuales, claras y orientadas a conversión.
